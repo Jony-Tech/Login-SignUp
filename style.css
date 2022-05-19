@@ -62,14 +62,7 @@ h3{
     height: 100%;
 }
 /* formularios */
-.formularioc {
-    background-position: center;
-    height: 100vh;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .contenedor-formulario{
     background: url(img/s3.jpg);
 }
@@ -87,6 +80,7 @@ h3{
     display: grid;
     gap:3rem;
 }
+
 .separador{
     display: flex;
     flex-direction: column;
@@ -142,4 +136,12 @@ img{
 /* login */
 .imglogin{
     background: url(img/s3.webp);
+}
+.formularioc {
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
